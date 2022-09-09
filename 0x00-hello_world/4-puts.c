@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-/* The entry point of the program that prints a string */
-int main()
+int main(void)
 
+/* The entry point of the program that prints a string */
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
