@@ -1,7 +1,9 @@
 #include<stdio.h>
 
 /**
- * The entry point of the program that prints a string
+ * The function called at program startup is named main. 
+ * The implementation declares no prototype for this function. 
+ * It shall be defined with a return type of int and with no parameters
  * This program wuses puts command to print a string
  */
 
