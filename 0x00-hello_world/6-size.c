@@ -11,7 +11,7 @@ int main(void)
 	int intType;
 	float floatType;
 	char charType;
-	double doublType;
+	double doubleType;
 
 /* sizeof evaluates the value of a variable */
 	printf("The size of integer : %zu bytes/n", sizeof(intType));
