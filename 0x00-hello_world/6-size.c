@@ -12,8 +12,8 @@ int main(void) /* main block returns the value 0 */
 	int intType;
 	float floatType;
 	char charType;
-	long longType;
-	long long doubleType;
+	long int longType;
+	long long int doubleType;
 
 /* sizeof evaluates the value of a variable */
 	printf("The size of an int : %zu byte(s)\n", sizeof(intType));
