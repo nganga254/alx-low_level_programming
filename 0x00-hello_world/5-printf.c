@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - main block
+ * main - Entry point
  * description : a program that uses printf
  * to output a string to stdin
- * return 0
+ * return - Always 0 (Success)
  */
 
 int main(void) /* main block returns the value 0 */
