@@ -19,7 +19,7 @@ int main(void) /* main(void) returns the value 0 */
 	}
 	for (y= 'A'; y<= 'Z' ; y++)
 	{
-		putchar(y'\n');
+		putchar(y); putchar('\n');
 	}
 
 return (0);
