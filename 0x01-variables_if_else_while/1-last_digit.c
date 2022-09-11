@@ -11,10 +11,8 @@
  */
 
 int main(void)
-/**
- * main - Entry point
- * main return 0(Always)
- */
+/* return 0(Always) */
+
 {
 
 int n;
