@@ -13,9 +13,12 @@ int main(void) /* main(void) returns the value 0 */
 {
 	int x;
 	int y;
-	for (x = 'a', y = 'A' ; x <= 'z', y <= 'Z' ; x++, y++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(x);
+	}
+	for (y= 'A'; y<= 'Z' ; y++)
+	{
 		putchar(y'\n');
 	}
 
