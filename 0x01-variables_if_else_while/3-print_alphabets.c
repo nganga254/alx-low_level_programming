@@ -9,7 +9,7 @@
  * return 0(Always)
  */
 
-int main(void) /* main(void) returns the value 0 */
+int main(void) /* main(void) - Entry point returns the value 0 */
 {
 	int x;
 	int y;
@@ -21,7 +21,7 @@ int main(void) /* main(void) returns the value 0 */
 	{
 		putchar(y);
 	}
-       	putchar('\n');
+	putchar('\n');
 
 return (0);
 }
