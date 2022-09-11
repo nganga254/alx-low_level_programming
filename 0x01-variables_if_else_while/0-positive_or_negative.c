@@ -14,7 +14,10 @@
 /* betty style doc for function main goes there */
 
 int main(void)
-/* main - determine if number is positive or negative */
+/**
+ * main - determine if number is positive or negative
+ * return 0(Always)
+ */
 
 {
 
