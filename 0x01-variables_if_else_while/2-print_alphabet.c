@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main(void) - Entry point
  *
  * description : print lowercase alphabets
  *
@@ -14,7 +14,8 @@ int main(void)
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(x);
-		putchar('\n');
 	}
-	return (0);
+	putchar('\n');
+
+return (0);
 }
