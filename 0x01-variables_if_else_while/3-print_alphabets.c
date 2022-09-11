@@ -9,20 +9,15 @@
  * return 0(Always)
  */
 
-int main(void)
-/* main(void) returns the value 0 */
+int main(void) /* main(void) returns the value 0 */
 {
 	int x;
 	int y;
-	for (x = 'a' ; x <= 'z' ; x++)
+	for (x = 'a', y = 'A' ; x <= 'z', y <= 'Z' ; x++, y++)
 	{
 		putchar(x);
+		putchar(y'\n');
 	}
-	for (y = 'A' ; y <= 'Z' ; y++)
-	{
-		putchar(y);
-	}
-	putchar('\n');
 
 return (0);
 }
