@@ -20,7 +20,7 @@ int main(void)
 	}
 	for (y = 'A' ; y <= 'Z' ; y++)
 	{
-		putchar(x);
+		putchar(y);
 	}
 	putchar('\n');
 
