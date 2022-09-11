@@ -12,8 +12,8 @@
 
 int main(void)
 /**
- * print the last digit of the number stored in the variable n
- * return 0
+ * main - Entry point
+ * main return 0(Always)
  */
 {
 
