@@ -17,10 +17,11 @@ int main(void) /* main(void) returns the value 0 */
 	{
 		putchar(x);
 	}
-	for (y= 'A'; y<= 'Z' ; y++)
+	for (y = 'A'; y <= 'Z' ; y++)
 	{
-		putchar(y); putchar('\n');
+		putchar(y);
 	}
+       	putchar('\n');
 
 return (0);
 }
