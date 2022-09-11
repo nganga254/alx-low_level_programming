@@ -5,7 +5,7 @@
 /* more headers goes there */
 
 /**
- * main - Entry point 
+ * main - Entry point
  * description :  print whether the number stored
  * in the variable n is positive or negative
  * return 0(Always)
@@ -14,10 +14,8 @@
 /* betty style doc for function main goes there */
 
 int main(void)
-/**
- * main - Entry point to determine if                                                                     
- * number is positive or negative 
- */
+/* main - determine if number is positive or negative */
+
 {
 
 int n;
