@@ -11,9 +11,15 @@
 int main(void) /* int main(void) returns a value of 0 */
 {
 	int x;
-	for (x = 'a'; x != 'e' && x != 'q' && x <= 'z' ; x++)
+	do
 	{
 		putchar(x);
+		
+		x++;
+	}
+	while 
+	{
+		x != 'e' && x != 'q';
 	}
 	putchar('\n');
 	
