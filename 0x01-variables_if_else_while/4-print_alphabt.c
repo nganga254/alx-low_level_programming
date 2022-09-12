@@ -11,14 +11,15 @@
 int main(void) /* int main(void) returns a value of 0 */
 {
 	int x;
+
 	for (x = 'a' ; x <= 'z' ; x++)
 	{
 		if (x != 'e' && x != 'q')
 		{
 			putchar(x);
-		}
+		}		
+		putchar('\n');
 	}
-	putchar('\n');
 	
 return(0);
 }
