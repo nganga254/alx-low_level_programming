@@ -3,8 +3,7 @@
 /**
 * main - Entry point, the function returns (0)
 *
-* description :  print whether the number stored
-* in the variable n is positive or negative
+* description :  print decima numbers
 *
 * return 0(Always)
 */
