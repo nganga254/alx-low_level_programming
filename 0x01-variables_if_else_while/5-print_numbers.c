@@ -5,7 +5,6 @@
 *
 * description :  print whether the number stored
 * in the variable n is positive or negative
-*
 * return 0(Always)                                                                                          
 */
 
@@ -16,7 +15,5 @@ int main(void)
 	{
 		printf("%d", x);
 	}
-	printf("\n");
-
 return (0);
 }
