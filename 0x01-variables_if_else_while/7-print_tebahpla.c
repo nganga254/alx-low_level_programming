@@ -8,10 +8,11 @@
  * return 0(Always)
  */
 
-int main(void) 
+int main(void)
 {
 	int x;
 	for (x = 'z'; x >= 'a'; x--)
+
 	{
 		putchar(x);
 	}
