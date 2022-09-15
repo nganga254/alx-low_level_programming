@@ -1,2 +1,1 @@
-The basics of C programming language.
-A lowlevel programming language
+0x02. C - Functions, nested loops
