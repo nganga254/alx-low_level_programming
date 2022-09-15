@@ -8,17 +8,13 @@
  * return 0 - main(void) returns value 0
  */
 
-int main(void)
+void print_alphabet(void);
 {
-	void print_alphabet(void);
+	int x;
+	for (x = 'a';x = 'z';x++)
 	{
-		int x;
-		for (x = 'a';x = 'z';x++)
 		putchar(x);
-
-		return(0);
 	}
 	putchar('\n');
-	
 	return(0);
 }
