@@ -6,9 +6,8 @@
  * return 0 (Always)
  */
 
-int main (void)
+int main(void) /*main function is of type int and parameters void */
 {
-	printf("_putchar\n");
-	
+	printf("_putchar\n");	
 	return (0);
 }
