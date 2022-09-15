@@ -12,9 +12,13 @@ int main(void)
 {
 	void print_alphabet(void);
 	{
-		putchar(print_alphabet);
-		return(0);
+		int x;
+		for (x = 'a';x = 'z';x++)
+		putchar(x);
+
+		return(print_alphabet);
 	}
 	putchar('\n');
+	
 	return(0);
 }
