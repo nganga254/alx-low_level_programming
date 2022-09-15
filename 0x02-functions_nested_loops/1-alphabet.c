@@ -16,7 +16,7 @@ int main(void)
 		for (x = 'a';x = 'z';x++)
 		putchar(x);
 
-		return(print_alphabet);
+		return(0);
 	}
 	putchar('\n');
 	
