@@ -10,9 +10,10 @@
  */
 int main(void)
 {
-	int a;
-	int *ptr = &a;
-	void reset_to_98(int *ptr);
+	int n;
+	
+	n = 100;
+	reset_to_98(&n);
 
 	return (0);
 }
