@@ -12,7 +12,7 @@ int main(void)
 {
 	int n;
 	
-	n = 100;
+	n = 402;
 	reset_to_98(&n);
 
 	return (0);
