@@ -10,10 +10,12 @@
  */
 int main(void)
 {
-	int n;
-	
-	n = 402;
-	reset_to_98(&n);
+	int a;
+	int *ptr;
+
+	ptr = &a;
+	a = 402;
+	reset_to_98(ptr);
 
 	return (0);
 }
