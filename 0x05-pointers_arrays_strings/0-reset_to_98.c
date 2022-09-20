@@ -12,7 +12,7 @@ int main(void)
 {
 	int a;
 	int *ptr = &a;
-	void reset_to_98(int *ptr);
+	void reset_to_98(ptr);
 	putchar(*ptr);
 	return (0);
 }
