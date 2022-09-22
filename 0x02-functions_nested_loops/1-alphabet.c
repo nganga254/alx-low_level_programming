@@ -1,37 +1,19 @@
-/*
- *
- *  * File: 1-alphabet.c
- *
- *   * Auth: Brennan D Baraban
- *
- *    */
-
-
-
+#include <stdio.h>
 #include "main.h"
+#include "_putchar.c"
 
+/** main - Function of type int that is the entry point
+ * 
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line
+ * 
+ * return 0 (Always)
+ */
 
-
-/**
- *
- *  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
- *
- *   */
-
-void print_alphabet(void)
-
+void print_alphabet(void);
+int main(void)
 {
+	print_alphabet();
+	_putchar('\n');
 
-		char letter;
-
-
-
-			for (letter = 'a'; letter <= 'z'; letter++)
-
-						_putchar(letter);
-
-
-
-				_putchar('\n');
-
+	return(0);
 }
