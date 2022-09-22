@@ -8,13 +8,12 @@
  * return type is 0/void (Always)
  */
 
+void print_alphabet_x10(void);
+
 int main(void)
 {
-	int i;
-	for(i = 0 ; i < 10 ; i++)
-	{
-		print_alphabet();
-		putchar('\n');
-	}
+		print_alphabet_x10();
+		printf('\n');
+}
 return(0);
 }
