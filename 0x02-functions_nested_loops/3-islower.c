@@ -9,7 +9,7 @@
  * return 0(Always)
  */
 
-int _islower(int c);
+int _islower(int);
 int main(void)
 {
 	_islower(c);
