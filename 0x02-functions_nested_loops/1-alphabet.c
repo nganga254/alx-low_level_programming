@@ -13,7 +13,7 @@ void print_alphabet(void);
 int main(void)
 {
 	print_alphabet();
-	printf('\n');
+	/* printf('\n'); */
 
 	return(0);
 }
