@@ -10,11 +10,10 @@
 char *_strcat();
 int main(void)
 {
-	char *a;
-	char *b;
+	char a[] = "Hello ";
+	char b[] = "World!\n";
 
-	*a = "Hello ";
-	*b = "World!\n";
 	char *_strcat(*a,*b);
+	printf("Concanated string :",*_strcat(*a,*b));
 	return(0);
 }
