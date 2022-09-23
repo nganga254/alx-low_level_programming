@@ -10,6 +10,11 @@
 char *_strcat();
 int main(void)
 {
-	char *_strcat();
+	char *a;
+	char *b;
+
+	*a = "Hello ";
+	*b = "World!\n";
+	char *_strcat(*a,*b);
 	return(0);
 }
